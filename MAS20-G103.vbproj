@@ -102,16 +102,13 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="v1.0\assets\css\style.css" />
-    <Content Include="v1.0\assets\img\about.jpg" />
-    <Content Include="v1.0\assets\img\apple-touch-icon.png" />
     <Content Include="v1.0\assets\img\clients\client-1.png" />
     <Content Include="v1.0\assets\img\clients\client-2.png" />
     <Content Include="v1.0\assets\img\clients\client-3.png" />
     <Content Include="v1.0\assets\img\clients\client-4.png" />
     <Content Include="v1.0\assets\img\clients\client-5.png" />
     <Content Include="v1.0\assets\img\clients\client-6.png" />
-    <Content Include="v1.0\assets\img\favicon.png" />
-    <Content Include="v1.0\assets\img\hero-bg.jpg" />
+    <Content Include="v1.0\assets\img\logo.jpg" />
     <Content Include="v1.0\assets\img\portfolio\portfolio-1.jpg" />
     <Content Include="v1.0\assets\img\portfolio\portfolio-2.jpg" />
     <Content Include="v1.0\assets\img\portfolio\portfolio-3.jpg" />
@@ -128,7 +125,6 @@
     <Content Include="v1.0\assets\img\team\team-2.jpg" />
     <Content Include="v1.0\assets\img\team\team-3.jpg" />
     <Content Include="v1.0\assets\img\team\team-4.jpg" />
-    <Content Include="v1.0\assets\img\testimonials-bg.jpg" />
     <Content Include="v1.0\assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="v1.0\assets\img\testimonials\testimonials-2.jpg" />
     <Content Include="v1.0\assets\img\testimonials\testimonials-3.jpg" />
