@@ -121,10 +121,10 @@
     <Content Include="v1.0\assets\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="v1.0\assets\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="v1.0\assets\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="v1.0\assets\img\team\equipa-4.jpg" />
     <Content Include="v1.0\assets\img\team\team-1.jpg" />
     <Content Include="v1.0\assets\img\team\team-2.jpg" />
     <Content Include="v1.0\assets\img\team\team-3.jpg" />
-    <Content Include="v1.0\assets\img\team\team-4.jpg" />
     <Content Include="v1.0\assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="v1.0\assets\img\testimonials\testimonials-2.jpg" />
     <Content Include="v1.0\assets\img\testimonials\testimonials-3.jpg" />
