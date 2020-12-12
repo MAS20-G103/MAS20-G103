@@ -239,7 +239,7 @@ a:hover {
   font-size: 15px;
   font-weight: 600;
   padding: 0 3px;
-  font-family: "Nunito",Open Sans", sans-serif;
+  font-family: "Nunito","Open Sans", sans-serif;
 }
 
 .nav-menu > ul > li > a:before {
