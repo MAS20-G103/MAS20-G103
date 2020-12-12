@@ -16,16 +16,21 @@ body {
 }
 
 a {
-  color: #106eea;
+  color: #00E520;
 }
 
 a:hover {
-  color: #3b8af2;
+  color: #00ff22;
   text-decoration: none;
 }
 
 * {
   font-family: 'Nunito', sans-serif;
+}
+
+::selection {
+  background: #00ff22;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -47,7 +52,7 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #106eea;
+  border: 6px solid #00E520;
   border-top-color: #e2eefd;
   border-radius: 50%;
   width: 60px;
@@ -93,13 +98,13 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #106eea;
+  background: #00E520;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #3284f1;
+  background: #00ff22;
   color: #fff;
 }
 
@@ -116,7 +121,7 @@ a:hover {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #106eea;
+  background: #00E520;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -181,7 +186,7 @@ a:hover {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: "Nunito",Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 #header .logo a {
@@ -189,7 +194,7 @@ a:hover {
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: #00E520;
 }
 
 #header .logo img {
@@ -244,7 +249,7 @@ a:hover {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #106eea;
+  background-color: #00E520;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -256,7 +261,7 @@ a:hover {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #106eea;
+  color: #00E520;
 }
 
 .nav-menu .drop-down ul {
@@ -289,11 +294,11 @@ a:hover {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #062b5b;
+  color: #00640d;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #106eea;
+  color: #00E520;
 }
 
 .nav-menu .drop-down > a:after {
@@ -388,7 +393,7 @@ a:hover {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #106eea;
+  color: #00E520;
   text-decoration: none;
 }
 
@@ -447,16 +452,16 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-    width: 100%;
-    height: 75vh;
-    background: url(https://i.ytimg.com/vi/9TO9iB9xda8/maxresdefault.jpg) top left;
-    background-size: cover;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/hero_bg.jpg) center center;
+  background-size: cover;
+  position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -480,23 +485,29 @@ a:hover {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
-  font-family: "Nunito",Poppins", sans-serif;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
 }
 
-#hero h1 span {
-  color: #106eea;
+/* #hero h1 span {
+  color: #00E520;
+} */
+
+#hero p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.1em;
 }
 
 #hero h2 {
-  color: #555555;
+  color: #fff;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
 }
 
 #hero .btn-get-started {
-  font-family: "Nunito",Roboto", sans-serif;
+  font-family: "Nunito","Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -506,11 +517,11 @@ a:hover {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #106eea;
+  background: #00bb19;
 }
 
 #hero .btn-get-started:hover {
-  background: #247cf0;
+  background: #00d11c;
 }
 
 #hero .btn-watch-video {
@@ -525,7 +536,7 @@ a:hover {
 }
 
 #hero .btn-watch-video i {
-  color: #106eea;
+  color: #00E520;
   font-size: 32px;
   position: absolute;
   left: 0;
@@ -534,11 +545,11 @@ a:hover {
 }
 
 #hero .btn-watch-video:hover {
-  color: #106eea;
+  color: #00E520;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #3b8af2;
+  color: #00ff22;
 }
 
 @media (min-width: 1024px) {
@@ -554,6 +565,9 @@ a:hover {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+  }
+  #hero p {
+    font-size: 16px;
   }
   #hero h2 {
     font-size: 18px;
@@ -595,7 +609,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #106eea;
+  color: #00E520;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -608,7 +622,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #106eea;
+  color: #00E520;
 }
 
 .section-title p {
@@ -709,7 +723,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background: #00E520;
   top: 0;
   border-radius: 0px;
 }
@@ -721,7 +735,7 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #00E520;
   transition: all 0.3s ease-in-out;
 }
 
@@ -774,11 +788,11 @@ section {
 
 .about .content ul i {
   background: #fff;
-  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+  box-shadow: 0px 6px 15px #00ff221f;
   font-size: 24px;
   padding: 20px;
   margin-right: 15px;
-  color: #106eea;
+  color: #00E520;
   border-radius: 50px;
 }
 
@@ -810,7 +824,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Nunito",Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #222222;
 }
 
@@ -827,7 +841,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #106eea;
+  background-color: #00E520;
 }
 
 /*--------------------------------------------------------------
@@ -851,7 +865,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #106eea;
+  background: #00E520;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -868,7 +882,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito",Roboto", sans-serif;
+  font-family: "Nunito","Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -923,7 +937,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #3b8af2;
+  color: #00ff22;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -951,11 +965,11 @@ section {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover .icon i {
-  color: #106eea;
+  color: #00E520;
 }
 
 .services .icon-box:hover .icon {
-  border-color: #106eea;
+  border-color: #00E520;
 }
 
 /*--------------------------------------------------------------
@@ -1047,7 +1061,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #106eea !important;
+  background-color: #00E520 !important;
 }
 
 @media (min-width: 1024px) {
@@ -1088,7 +1102,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #106eea;
+  color: #00E520;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1133,7 +1147,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #106eea;
+  color: #00E520;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1198,7 +1212,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #106eea !important;
+  background-color: #00E520 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1292,14 +1306,14 @@ section {
   border-radius: 4px;
   width: 36px;
   height: 36px;
-  background: rgba(16, 110, 234, 0.8);
+  background: #00d11ccc;
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #3b8af2;
+  background: #00ff22;
 }
 
 .team .member .social i {
@@ -1361,9 +1375,9 @@ section {
 
 .pricing .box h4 {
   font-size: 36px;
-  color: #106eea;
+  color: #00E520;
   font-weight: 600;
-  font-family: "Nunito",Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1393,7 +1407,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #106eea;
+  color: #00E520;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1411,7 +1425,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #106eea;
+  background: #00E520;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1419,18 +1433,18 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Nunito",Roboto", sans-serif;
+  font-family: "Nunito","Roboto", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .pricing .btn-buy:hover {
-  background: #3b8af2;
+  background: #00ff22;
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #106eea;
+  background: #00E520;
 }
 
 .pricing .advanced {
@@ -1442,7 +1456,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #106eea;
+  background: #00E520;
   color: #fff;
 }
 
@@ -1465,7 +1479,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #106eea;
+  font-family: #00E520;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1483,7 +1497,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #106eea;
+  color: #00E520;
 }
 
 .faq .faq-list a.collapsed {
@@ -1491,7 +1505,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #106eea;
+  color: #00E520;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1510,7 +1524,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #106eea;
+  color: #00E520;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
@@ -1592,7 +1606,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #106eea;
+  border-color: #00E520;
 }
 
 .contact .php-email-form input {
@@ -1604,7 +1618,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #106eea;
+  background: #00E520;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1613,7 +1627,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3b8af2;
+  background: #00ff22;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1685,7 +1699,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #106eea;
+  background: #00E520;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1714,14 +1728,14 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #106eea;
+  color: #00E520;
 }
 
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito",Roboto", sans-serif;
+  font-family: "Nunito","Roboto", sans-serif;
   color: #777777;
 }
 
@@ -1745,7 +1759,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #106eea;
+  color: #00E520;
   font-size: 18px;
   line-height: 1;
 }
@@ -1769,13 +1783,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #106eea;
+  color: #00E520;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #106eea;
+  background: #00E520;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1788,7 +1802,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3b8af2;
+  background: #00ff22;
   color: #fff;
   text-decoration: none;
 }
