@@ -29,7 +29,7 @@ a:hover {
 }
 
 ::selection {
-  background: #00ff22;
+  background: #00e520dd;
   color: white;
 }
 
@@ -97,14 +97,14 @@ a:hover {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
-  background: #00e520;
+  border-radius: 50%;
+  background: #00ad17;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #00ff22;
+  background: #00d31c;
   color: #fff;
 }
 
@@ -514,24 +514,6 @@ a:hover {
   font-weight: 400;
 }
 
-#hero .btn-get-started {
-  font-family: "Nunito", "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #00bb19;
-}
-
-#hero .btn-get-started:hover {
-  background: #00d11c;
-}
-
 #hero .btn-watch-video {
   font-size: 16px;
   display: inline-block;
@@ -603,7 +585,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  background-color: #f7fff8;
 }
 
 .section-title {
@@ -617,7 +599,7 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
+  background: #e8ffee;
   color: #00e520;
   display: inline-block;
   text-transform: uppercase;
@@ -713,7 +695,7 @@ section {
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  box-shadow: 0 0 29px 0 #5ca1651f;
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -722,7 +704,7 @@ section {
 .featured-services .icon-box::before {
   content: "";
   position: absolute;
-  background: #cbe0fb;
+  background: #f9fffa;
   right: 0;
   left: 0;
   bottom: 0;
@@ -925,19 +907,21 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  cursor: pointer;
   text-align: center;
   border: 1px solid #e2eefd;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-radius: 8px;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #f1f6fe;
-  border-radius: 4px;
+  background: #f9fffa;
+  border-radius: 50%;
   border: 1px solid #deebfd;
   display: flex;
   align-items: center;
@@ -1320,17 +1304,17 @@ section {
   color: #222222;
   margin: 0 3px;
   padding-top: 7px;
-  border-radius: 4px;
+  border-radius: 50%;
   width: 36px;
   height: 36px;
-  background: #00d11ccc;
+  background: #00ad17cc;
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #00ff22;
+  background: #00d31c;
 }
 
 .team .member .social i {
@@ -1675,12 +1659,12 @@ section {
   padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
-  background: #f1f6fe;
+  background: #f7fff8;
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f1f6fe;
+  background: #f7fff8;
   text-align: center;
   font-size: 15px;
 }
@@ -1845,4 +1829,43 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+.table td a {
+  font-weight: bold;
+}
+
+.thead {
+  background: #444;
+  color: #fff;
+}
+
+.btn-action {
+  font-family: "Nunito", "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #00bb19;
+}
+
+.btn-action:hover, 
+.btn-action:focus, 
+.btn-action:active  {
+  background: #00d81d;
+  color: #fff;
+}
+
+.card-body h4{ 
+  font-weight: 700;
+}
+
+.card-footer {
+  background: none;
+  border: none;
 }
