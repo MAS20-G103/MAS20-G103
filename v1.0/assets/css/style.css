@@ -942,7 +942,7 @@ section {
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.services .icon-box h4 {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
@@ -958,7 +958,7 @@ section {
   box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
 }
 
-.services .icon-box:hover h4 a,
+.services .icon-box:hover h4,
 .services .icon-box:hover .icon i {
   color: #00e520;
 }
