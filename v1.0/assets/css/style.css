@@ -550,7 +550,7 @@ a:hover {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 50vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -572,7 +572,7 @@ a:hover {
 
 @media (max-height: 500px) {
   #hero {
-    height: 120vh;
+    /* height: 120vh; */
   }
 }
 
