@@ -1854,18 +1854,23 @@ section {
   background: #00bb19;
 }
 
-.btn-action:hover, 
-.btn-action:focus, 
-.btn-action:active  {
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active {
   background: #00d81d;
   color: #fff;
 }
 
-.card-body h4{ 
+.card-body h4 {
   font-weight: 700;
 }
 
 .card-footer {
   background: none;
   border: none;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
 }
